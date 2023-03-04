@@ -1,13 +1,24 @@
+@import url(quicksand.css);
+
 /* Diagnostic */
 
+
+
 * {
-  outline: 1px dotted darkgray;
+  
 }
 
 /* Layout  */
+
+
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "hours minutes seconds amOrPM"
+  ;
+
   /* verrtical center   */
   align-content: center;
   /*  extend to viewport height  */
@@ -17,6 +28,45 @@ main {
 main time {
 /*  center content  */
   text-align: center;
+  font-family: 'Quicksand-Regular';
 }
 
+.hours {
+  font-family: 'Quicksand-Regular';
+  color: #75BCE4;
+    grid-area:hours;
+}
+.minutes {
+  color: #75BCE4;  
+  grid-area:minutes;
+}
+.seconds {
+  color: #75BCE4;
+  grid-area:seconds;
+}
+.amOrPM {
+  color:  #75BCE4;
+  grid-area:amOrPM;
+}
 
+/* date */
+
+.date{
+
+}
+
+.month{
+
+}
+
+.dayOfWeek{
+
+}
+
+.dayOfMonth{
+
+}
+
+.year{
+
+}

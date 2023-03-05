@@ -8,3 +8,11 @@
 
 ## Citations
 * [Favicon Generator](https://favicon.io/)
+
+* Inspiration =
+* 
+* Clock Shop
+* URL: (https://drawcall.github.io/clock-shop/)
+
+* Hunter Zepp 
+* URL ()

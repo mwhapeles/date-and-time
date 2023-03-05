@@ -1,25 +1,27 @@
 @import url(quicksand.css);
 
 
+
+
 main {
   display: grid;
   /* vertical center   */
   align-content: center;
   /*  extend to viewport height  */
   height: 100vh;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-areas:
     "time date";
 }
 
 .dots {
-  font-size:5rem;
+  font-size:1em;
 }
 
 
 .time {
+  
   font-family: 'Quicksand-Variable';
-font-weight: 400;
   margin: auto;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 1fr;
@@ -29,7 +31,6 @@ font-weight: 400;
 
 .date {
   font-family: 'Quicksand-Variable';
-    font-size: 2rem;
   margin: auto;
   display: grid;
   grid-template-rows: auto;
@@ -41,35 +42,42 @@ font-weight: 400;
 
 
 .hours {
-  font-size: 5rem;
+  font-size: 2em;
   grid-area: hours;
 }
 
 .minutes { 
-  font-size: 5rem;
+  font-size: 2em;
   grid-area: minutes;
 }
 
-.seconds {font-size: 3rem;
+.seconds {font-size: 1em;
   grid-area: seconds;
 }
 
-.amOrPM {font-size: 2rem;
+.amOrPM {font-size: 1em;
   grid-area: amOrPM;
+padding-top: 100%;
 }
 
 .month {
+  font-size: 1em;
   grid-area: month;
 }
 
 .dayOfMonth {
+  font-size: 1em;
   grid-area: dayOfMonth;
 }
 
 .year {
+    font-size: 1em;
   grid-area: year;
 }
 
 .dayOfWeek {
+  font-size: 1em;
   grid-area: dayOfWeek;
 }
+
+

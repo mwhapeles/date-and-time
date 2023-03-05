@@ -1,12 +1,13 @@
 @import url(quicksand.css);
 
+
 main {
   display: grid;
   /* vertical center   */
   align-content: center;
   /*  extend to viewport height  */
   height: 100vh;
-  grid-template-columns: 2fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-areas:
     "time date";
 }
@@ -16,11 +17,9 @@ main {
 }
 
 
-.comma {
-  font-size:2rem;}
-
 .time {
-font-family: 'Quicksand-Regular';
+  font-family: 'Quicksand-Variable';
+font-weight: 400;
   margin: auto;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 1fr;
@@ -29,7 +28,8 @@ font-family: 'Quicksand-Regular';
 }
 
 .date {
-  font-size: 2rem;
+  font-family: 'Quicksand-Variable';
+    font-size: 2rem;
   margin: auto;
   display: grid;
   grid-template-rows: auto;
@@ -40,11 +40,13 @@ font-family: 'Quicksand-Regular';
 }
 
 
-.hours {font-size: 5rem;
+.hours {
+  font-size: 5rem;
   grid-area: hours;
 }
 
-.minutes { font-size: 5rem;
+.minutes { 
+  font-size: 5rem;
   grid-area: minutes;
 }
 

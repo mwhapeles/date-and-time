@@ -36,7 +36,7 @@ console.log( dateNow );
 
 const gotMonth = dateNow.getMonth();
 // Get current day of the month
-let gotDayOfMonth = dateNow.getDate();
+let gotDayOfMonth = dateNow.getDate()+",";
 // Get current year
 const gotYear = dateNow.getFullYear();
 // Get current day of the week

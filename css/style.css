@@ -1,4 +1,4 @@
-@import url(css/quicksand.css);
+@import url(quicksand.css);
 
 main {
   display: grid;
@@ -15,6 +15,10 @@ main {
   font-size:5rem;
 }
 
+
+.comma {
+  font-size:2rem;}
+
 .time {
 font-family: 'Quicksand-Regular';
   margin: auto;
@@ -28,11 +32,11 @@ font-family: 'Quicksand-Regular';
   font-size: 2rem;
   margin: auto;
   display: grid;
-  grid-template-rows: 2rem;
-  grid-template-columns: repeat(4, 3fr);
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-  " month dayOfMonth year " 
-  " dayOfWeek . .";
+  " month dayOfMonth year . " 
+  " dayOfWeek . . .";
 }
 
 

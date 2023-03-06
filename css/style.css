@@ -9,9 +9,10 @@ main {
   align-content: center;
   /*  extend to viewport height  */
   height: 100vh;
-  grid-template-columns: 2fr 2fr;
+  grid-gap: 3em;
+  grid-template-columns: 2fr 2fr ;
   grid-template-areas:
-    "time date";
+    "time  date .";
 }
 
 .dots {
